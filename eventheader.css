@@ -1,0 +1,153 @@
+/* Header/Blog Title */
+.thheader {
+    padding: 75px;
+    text-align: center;
+    background-image: url('theater.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.thheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.thheader p {
+    font-size: 20px;
+    color: white;
+}
+
+.eventheader {
+    padding: 75px;
+    text-align: center;
+    background-image: url('event.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.eventheader h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.eventheader p {
+    font-size: 25px;
+    color: black;
+}
+
+
+.calligraphyheader {
+    padding: 85px;
+    text-align: center;
+    background-image: url('calli.jpg');
+    background-position: 0px -400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.calligraphyheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.calligraphyheader p {
+    font-size: 20px;
+    color: white;
+}
+
+.xiangqiheader {
+    padding: 80px;
+    text-align: center;
+    background-image: url('xiangqi.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.xiangqiheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.xiangqiheader p {
+    font-size: 25px;
+    color: white;
+}
+
+.liondanceheader {
+    padding: 70px;
+    text-align: center;
+    background-image: url('liondance.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.liondanceheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.liondanceheader p {
+    font-size: 20px;
+    color: white;
+}
+
+.diaboloheader {
+    padding: 70px;
+    text-align: center;
+    background-image: url('diabolo.jpg');
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.diaboloheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.diaboloheader p {
+    font-size: 20px;
+    color: white;
+}
+
+.crosstalkheader {
+    padding: 85px;
+    text-align: center;
+    background-image: url('crosstalk.png');
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+.crosstalkheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.crosstalkheader p {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+

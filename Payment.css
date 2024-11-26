@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+body {
+    background: url(payment.jpg) no-repeat center center/cover;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+.container{
+    width:45%;
+}
+h3{
+    text-align: center;
+}
+
+
+/* Change color on hover */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+#wel{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 280%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 40px;
+    border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+td{
+    width:150px;
+}
+
+
+
+.logout{
+    padding-top:5px;
+}
+.logout .btn{
+    background-color: white;
+    color: palevioletred;
+    font-size: 17px;
+    font-family:serif;
+}

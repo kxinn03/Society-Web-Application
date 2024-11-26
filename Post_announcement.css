@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 Aug 2022, 9:30:30 pm
+    Author     : user
+*/
+html{
+  margin: 4px;
+  padding: 6px;
+  font-family: 'Cabin', sans-serif;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.logout{
+    padding-top:5px;
+}
+.logout .btn{
+    background-color: white;
+    color: palevioletred;
+    font-size: 17px;
+    font-family:serif;
+}
+.container{
+    border: 1px solid black;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url('announ.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 6px solid #f1f1f1;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.postbtn {
+  padding: 14px 20px;
+  background-color: lightgreen;
+  border: none;
+}
+
+.postbtn:hover {
+  background-color: forestgreen;
+}
+
+input#title:focus:valid,
+input#content:focus:valid  {
+  background: url(okay.png) right/contain no-repeat;
+}
+
+input#title:focus:invalid,
+input#content:focus:invalid  {
+  background: url(warning.png) right/contain no-repeat;
+}
+
+h3{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}

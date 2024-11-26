@@ -1,0 +1,211 @@
+body{
+  background-image: url('background4.jpg');
+  background-size: cover;
+}
+
+.header {
+  margin-top: 20px;
+  padding: 30px;
+  padding-top: 60px;
+  text-align: center;
+  background: transparent;
+  }
+  
+.header h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(242, 103, 103);
+  text-shadow: 2px 2px 4px rgb(255, 255, 54);
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-top: -30px;
+}
+
+.logout{
+    padding-top:5px;
+}
+.logout .btn{
+    background-color: white;
+    color: palevioletred;
+    font-size: 17px;
+    font-family:serif;
+}
+
+
+
+.section > .activity,image {
+  background-color: rgba(255, 255, 255,0.8);
+  float: left;
+  padding: 20px;
+  margin: 40px 29px 35px 140px;
+  margin-top: 10px;
+  box-shadow: 0 12px 10px 0 rgba(255, 255, 255, 0.308), 0 17px 50px 0 rgba(255, 255, 255, 0.231);
+}
+
+h3{
+  padding: 5px;
+  padding-left: 15px;
+  margin-right: 300px;
+  background-color: rgb(238, 176, 155);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+button {
+  background-color: rgb(255, 241, 161);
+  padding: 4px;
+  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 0.60rem;
+  border-color: rgb(255, 255, 255);
+  transition: color 0.15s, background-color 0.15s;
+  float: right;
+}
+
+button:hover{
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-weight: 650;
+  cursor: pointer;
+  border-radius: 0.50rem;
+  border-color: rgb(229, 225, 225);
+  transition: color 0.15s, background-color 0.15s;
+  box-shadow: 0 12px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: rgb(255, 234, 234);
+  padding: 20px 80px 60px 85px;
+  margin: 60px 150px 50px 280px;
+  border: 1px solid rgb(136, 136, 136);
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content2 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: rgb(255, 234, 234);
+  padding: 50px;
+  margin: 150px 200px 50px 350px; 
+  border: 1px solid rgb(136, 136, 136);
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position:absolute;
+  right: 25px;
+  top: 0;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+h4{
+  text-align: center;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.container{
+  margin: 15px 40px 15px 50px;
+  padding: 16px 55px 15px 56px;
+}
+
+* {
+  box-sizing: border-box;
+}
+  
+p.text {
+  margin: 0;
+}
+  
+p.text span {
+  color: rgb(43, 215, 231);
+}
+
+/*button*/
+.done {
+  background-color: rgb(244, 81, 30);
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 11px;
+  margin-left: 10px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#eventseat{
+  background-color: rgb(244, 81, 30);
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 11px;
+  margin-left: 10px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+table, th, td {
+  border: 1px solid black;
+padding:5px 10px;
+margin: auto;
+text-align: center;
+}
+

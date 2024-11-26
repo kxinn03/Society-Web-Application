@@ -1,0 +1,236 @@
+@import "bootswatch/dist/minty/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+header {
+    height: 90vh;
+    background: url('homeimg.jpeg') no-repeat center center/cover;
+  }
+  
+
+  /*title*/
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: rgb(28, 26, 26);
+  }
+
+  .titlestyle {
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0%;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /*heading*/
+  h1 {
+    text-align: center;
+    font-size: 50px;
+
+  }
+  
+ .nav-item{
+      font-size: 18px;
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(234, 41, 118);
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: white;
+}
+
+.w3-container{
+    font-size: 18px;
+}
+
+.logout{
+    padding-top:5px;
+}
+.logout .btn{
+    background-color: white;
+    color: palevioletred;
+    font-size: 17px;
+}
+p{
+    color: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.card-style,.profilecard,.aboutus{
+ background-color: rgba(255, 228, 207, 0.91);
+}
+
+
+footer {
+  clear: left;
+  background-color: rgb(243, 241, 241);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 12px 10px 15px 10px;
+}
+
+* {
+  font-family: Roboto;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #ffa0a0;
+  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.973);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+
+
+
+
+.contactus{
+  background-color: bisque;
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+body{
+    background-image: url('background7.jpg');
+    background-size: cover;
+}
+
+
+.card{
+    max-width: 80rem;
+    margin-top: 50px;
+    margin-left: 80px;
+    border-width: 2px;
+}
+.logout{
+    padding-top:5px;
+}
+.logout .btn{
+    background-color: white;
+    color: palevioletred;
+    font-size: 17px;
+    font-family:serif;
+}
+
+.card-header{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: fantasy;
+    color: rgb(105, 186, 233);
+    text-shadow: 2px 2px 4px rgba(255, 211, 14, 0.887);
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+  }
+  
+td, th {
+    border: 1px solid rgb(221, 221, 221);
+    text-align: left;
+    padding: 6px;
+}
+  
+  tr:nth-child(even) {
+    background-color: rgb(253, 245, 245);
+}
+
+#lastcol{
+    padding-right: 5px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 14px;
+    background-color: rgb(253, 246, 246);
+    border: 2px solid rgb(255, 210, 192);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+

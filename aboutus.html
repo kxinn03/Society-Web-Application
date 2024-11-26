@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="TARUC,Chinese,Language,Society">
+    <title>About Us - TARUC Chinese Language Society</title>
+    <link href="aboutus.css" rel="stylesheet"/>
+    <script src="aboutus.js" type="text/javascript"  defer> </script>
+    <link href="https://bootswatch.com/5/minty/bootstrap.min.css" rel="stylesheet">
+    <title>About Us</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Chinese Language Society</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="main.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="aboutus.html">About Us
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.php">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="v_allactivity.php">Activity</a>
+              </li>
+                          <li class="nav-item">
+                <a class="nav-link" href="announcement.php">Announcement</a>
+              </li>
+            </ul>
+              <ul class="logout">
+                  <a class="nav-link" href="logout.php"><button class="btn btn-secondary my-2 my-sm-0"><b>Logout</b></button></a>
+              </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <header>
+        <div class="text-light text-right title">
+           <h1 class="display-6 text-center font-weight-bold heading">
+             TARUC Chinese Language Society
+           <p class="main text-center">About Us</p>
+           <div>
+              <h1 id="currentdate"></h1>
+           </div>
+        </h1>
+         </div>
+       </header>
+
+       <div class="iframe-container">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QLM7PhCH6ag?autoplay=1&mute=1&controls=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="about-us-section">
+        <h2 class="about-heading">Our Story</h2>
+        <p class="about-paragraph">TARUC Chinese Language Society is a website to let more people know about Chinese traditional culture. TARUC Chinese Language Society allows people interested in Chinese traditional culture to buy ticket to watch Chinese traditional culture programs. Such as theater, calligraphy, crosstalk, xiangqi, lion dance, and diabolo.
+   <br/>
+   <br/>
+   The TARUC Chinese Language Society is a group that promotes Chinese culture and literary creation, and also plays an important role in inheriting culture. Every nation has its own far-reaching culture, and the roots of Chinese people started in China, which is naturally influenced by Chinese culture. In Malaysia, a multiracial country, it is actually significant for all ethnic groups to understand the culture in order to promote contact and unity between races.
+   <br/>
+   <br/>
+   The TARUC Chinese Language Society is a bridge for students of all ethnic groups to participate in and understand Chinese culture. In TARUC, the Chinese Language Society has a theater, calligraphy, crosstalk, xiangqi, lion dance, and diabolo, and whenever there is a cultural performance, it will attract students of different nationalities to come and celebrate together.
+   <br/>
+   <br/>
+   To set up a Chinese language society, so that more compatriots of all ethnic groups can have the opportunity to learn Chinese. I believe that in the future, more compatriots of different nationalities will join the Chinese Society because the Chinese Society in universities is not a factor of racial division, but a base for cultural growth.</p>
+    </div>
+
+
+    <article>
+          <h1 id="look">Look for programs that interest you.</h1>
+        <h3 id="look">Click the <b>"ACTIVITY" </b> button.</h3>
+
+       <br/>
+       <div class="flex-container">
+        <div class="col-1-2">
+           <a href="v_calligraphy.php">
+              <img src="calligraphy.jpg" alt="calligraphy" width="200" height="180">
+           </a>
+           <h2>Calligraphy 戏剧</h2>
+         </div>
+
+        <div class="col-1-2">
+          <a href="v_crosstalk.php">
+              <img src="crosstalk_1.png" alt="crosstalk" width="200" height="180">
+           </a>
+           <h2>Crosstalk 相声</h2>
+        </div>
+
+        <br/>
+        <div class="col-1-2">
+          <a href="v_diabolo.php">
+              <img src="diabolo_1.jpeg" alt="diabolo" width="200" height="180">
+           </a>
+           <h2>Diabolo 扯铃</h2>
+        </div>
+
+        <div class="col-1-2">
+          <a href="v_liondance.php">
+              <img src="liondance.jpg" alt="liondance" width="200" height="180">
+           </a>
+           <h2>Lion Dance 舞狮</h2>
+        </div>
+
+        <div class="col-1-2">
+          <a href="v_theater.php">
+              <img src="theater.jpg" alt="theater" width="200" height="180">
+           </a>
+           <h2>Theater 戏剧</h2>
+
+        </div>
+        <div class="col-1-2">
+          <a href="v_xiangqi.php">
+              <img src="xiangqi_1.jpg" alt="xiangqi" width="200" height="180">
+           </a>
+           <h2>Xiang Qi</h2>
+        </div>
+
+        <h1 id="look"><a href="v_allactivity.php" id="clickevent">ACTIVITY</a></h1>
+    </article>
+
+
+
+       <button onclick="topFunction()" id="myBtn" title="Go To Top">&#8682;</button>
+       <script>
+          var mybutton = document.getElementById("myBtn");
+     
+          window.onscroll = function() {scrollFunction()};
+     
+           function scrollFunction() {
+              if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+                 mybutton.style.display = "block";
+              } else {
+                 mybutton.style.display = "none";
+              }
+           }
+     
+           function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+           }
+       </script>
+</body>
+
+</html>
